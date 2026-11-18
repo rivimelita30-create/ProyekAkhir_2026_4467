@@ -17,8 +17,8 @@ body {
 /* TODO CSS-01 */
 body {
   font-family: Arial, sans-serif;
-  color: #cb3232;
-  background-color: #cf2865;
+  color: #827070;
+  background-color: #141313;
   margin: 0;
   padding: 20px;
 }
@@ -27,48 +27,101 @@ body {
 
 /* TODO CSS-02: Atur lebar konten, posisi, padding, margin,
    border dan border-radius seperlunya. */
-.container {
+.container { 
+  
+  width: 90%;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
 }
 
 .kepala-halaman {
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #cd8181;
+  border-radius: 10px;
+  text-align: center
 }
 
 .panel {
+  padding: 20px;
+  margin-bottom: 15px;
+  border: 1px solid #cd8181;
+  border-radius: 10px;
 }
 
 /* TODO CSS-03: Atur ukuran input, padding, jarak antar elemen,
    warna tombol, dan tampilan yang konsisten. */
 .form-baris {
+  margin-bottom: 15px;
 }
 
 .form-baris label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
 }
 
 .form-baris input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cd8181;
+  border-radius: 5px;
+  font-size: 16px;
 }
 
 .aksi {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
 }
 
 .aksi button {
+  padding: 10px 20px;
+  background-color: #cf2865;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
 }
 
 /* TODO CSS-04: Rapikan daftar kegiatan, jumlah kegiatan, dan pesan
    status. Bedakan tampilan status berhasil dan gagal. */
 #daftarKegiatan {
+    padding-left: 20px;
+  margin-top: 15px;
 }
 
 #daftarKegiatan li {
+  padding: 10px;
+  margin-bottom: 8px;
+  background-color: #fce4ec;
+  border-radius: 5px;
 }
 
 .ringkasan {
+  margin-top: 20px;
+  padding: 10px;
+  font-weight: bold;
+  background-color: #f8d7e3;
+  border-radius: 5px;
 }
 
 #pesanStatus {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 5px;
 }
 
+
+
 #pesanStatus.berhasil {
+  color: green;
+  background-color: #d4edda;
 }
 
 #pesanStatus.gagal {
+  color: red;
+  background-color: #f8d7da;
 }
