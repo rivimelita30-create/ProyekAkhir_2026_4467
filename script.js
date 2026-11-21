@@ -11,7 +11,7 @@
  */
 
 // Data awal disediakan guru. Jangan diubah.
-const daftarKegiatan = ["Piket Kelas", "Rapat OSIS", "Kerja Bakti"];
+const namaKegiatan = ["Piket Kelas", "Rapat OSIS", "Kerja Bakti"];
 
 function tampilkanKegiatan(daftar) {
   const elemenDaftar = document.getElementById("daftarKegiatan");
@@ -117,6 +117,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   perbaruiTampilan();
 });
+
 
 // Area penambahan Function untuk pertemuan berikutnya akan diberikan
 // oleh guru pada saat paket soal berikutnya dibagikan.
